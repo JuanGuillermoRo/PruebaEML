@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
+    <!--Enlace bootstrap-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+<!--Hoja de estilos propia-->
+
+<link rel="stylesheet" href="estilos/estilos.css">
+
+<!--Animación con JS-->
+
+<script type="text/javascript" src=""></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="">
+            <img src="img/github.png" alt="" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"> 
+                    LOGO
+        </a>
+        <!--menu para dispositivos moviles-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#MenuMovil"></button>
+        <!--menu para pantallas grandes-->
+        <div class="collapse navbar-collapse" id="MenuMovil">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.php" class="nav-link">Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a href="informacion.html" class="nav-link">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--USANDO LA CATEGORIA CARD DE BOOTSTRAP-->
+    <style>
+        .row{
+            padding-top: 15px;
+        }
+    </style>
+    <h1>Información</h1>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
+            <div>
+            <img class="card-img-top" src="img/Interiores1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+           </div>
+        </div>  
+           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img class="card-img-top" src="img/Interiores2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Miras más información</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Solictar</a>
+      </li>
+    </ul>
+    
+  
+    <hr>
+  
+    <!-- Social icons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> Juan Guillermo Romero Libreros</a>
+    </div>
+    <!-- Copyright -->
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=573016608346&text=Hola,%20Este%20es%20un%20mensaje%20para%20contactarme%20en%20whatsApp" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  
+  
+  
+  </footer>
+</html>

@@ -1,0 +1,33 @@
+
+body{
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+
+}
+
+.navbar-brand{
+    margin:0;
+    padding: 0;
+}
+
+.navbar-brand img{
+    max-height: 100%;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+#formulario{
+    padding:50px 20px;
+    background-color: antiquewhite;
+    margin:25px;
+    text-align: center;
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+    border: 1px, solid;
+}
+
